@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://reacli.github.io/"
 languageCode = "fr-FR"
 title = "Reacli"
 theme = "learn"
