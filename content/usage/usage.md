@@ -7,7 +7,7 @@ chapter: true
 
 #### If **Reacli** is installed globally
 
-If you have installed **Reacli** globally (see [installation]({{< relref "install.md" >}})), you can directly use **Reacli** like:
+If you have installed **Reacli** globally (see [installation]({{< relref "install.md" >}})), you can directly use it like this:
 
 ```bash
 reacli component path/to/my/component
