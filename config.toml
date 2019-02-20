@@ -1,0 +1,34 @@
+baseURL = "https://reacli.github.io/"
+languageCode = "fr-FR"
+title = "Reacli"
+theme = "learn"
+author = "Gautier Darchen"
+showVisitedLinks = true
+disableInlineCopyToClipBoard = true
+
+[params]
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "blue"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+
+[Languages]
+[Languages.en]
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/reacli/cli"
+weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-exclamation-circle'></i> Issues"
+url = "https://github.com/reacli/cli/issues"
+weight = 11
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
+url = "/credits"
+weight = 30

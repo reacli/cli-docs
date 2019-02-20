@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+<span id="sidebar-toggle-span">
+<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
+</span>
+
+{{if .Site.Home.Content }} 
+{{.Site.Home.Content}}	
+{{else}}           
+		<h1>Welcome to <b>Reacli</b></h1>
+		<p>
+		  This is a React CLI that helps with boilerplate.
+		</p>
+		<p>
+			It enables to create React components in one single command, by precising how to configure those generated components.
+		</p>
+
+		Let's see how to <a href='/installation/install'>install</a> it!
+{{ end }}  
+{{ partial "footer.html" . }}
