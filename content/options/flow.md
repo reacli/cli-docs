@@ -12,7 +12,16 @@ To create a `flow`-typed component, just use **Reacli** with either the `--flow`
 reacli component ./my-super-component -f
 ```
 
-It will generate the following components.
+It will generate a structure like this:
+```text
+    .
+    └── my-super-component
+        ├── components
+        |   ├── MySuperComponent.jsx
+        |   ├── MySuperComponent.css
+        |   └── MySuperComponentContainer.jsx
+        └── index.js
+```
 
 ## Container component
 
