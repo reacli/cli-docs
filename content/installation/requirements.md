@@ -2,7 +2,6 @@
 title: "Requirements"
 date: 2019-02-18T19:33:40+01:00
 weight: 1
-chapter: true
 ---
 
 #### npm

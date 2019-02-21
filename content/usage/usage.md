@@ -1,8 +1,7 @@
 ---
-title: "Usage"
+title: "Use Reacli"
 date: 2019-02-18T19:57:39+01:00
 weight: 1
-chapter: true
 ---
 
 #### If **Reacli** is installed globally
