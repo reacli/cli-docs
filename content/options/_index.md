@@ -10,4 +10,4 @@ pre = "<b>3. </b>"
 
 # Use options
 
-The **Reacli** command-line interface enables to create components that exactly match to your needs. This chapter aims at showing how to customize your usage.
+The **Reacli** command-line interface enables to create components or hooks that exactly match to your needs. This chapter aims at showing how to customize your usage.

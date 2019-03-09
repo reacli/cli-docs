@@ -6,7 +6,7 @@ weight: 5
 
 ## Explanation
 
-By default, the style file associated to a generated dumb component is a `.css` file.
+By default, the style file associated to a generated dumb component (or hook) is a `.css` file.
 
 Some users might want to use _Sass_. That is the reason why we added the `--scss` argument. _SCSS_ is a _Sass_ syntax that is also full compatible with the _CSS_ syntax.
 
@@ -14,7 +14,7 @@ In other words, it means that every valid _CSS_ stylesheet is a valid _SCSS_ fil
 
 ## Usage
 
-You can generate an `.scss`-styled component using the following command: 
+You can generate an `.scss`-styled component (same for hook) using the following command: 
 ```bash
 reacli component ./my-super-component --scss
 ```

@@ -1,7 +1,7 @@
 ---
 title: "Component architecture"
 date: 2019-02-18T19:57:39+01:00
-weight: 2
+weight: 6
 ---
 
 ## Architecture
