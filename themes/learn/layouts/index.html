@@ -3,17 +3,45 @@
 <a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
 </span>
 
-{{if .Site.Home.Content }} 
-{{.Site.Home.Content}}	
-{{else}}           
+{{if .Site.Home.Content }}
+{{.Site.Home.Content}}
+{{else}}
 		<h1>Welcome to <b>Reacli</b></h1>
 		<p>
 		  This is a React CLI that helps with boilerplate.
 		</p>
 		<p>
-			It enables to create React components in one single command, by precising how to configure those generated components.
+			It enables to create React components (or other things such as hooks) in one single command, by precising how to configure those generated components.
 		</p>
 
 		Let's see how to <a href='/installation/install'>install</a> it!
-{{ end }}  
+
+		<h2>Basic usage</h2>
+
+		<img src="/usage/img/basicUsage.svg"/>
+
+		<h2>Summary</h2>
+		<pre><code class="hljs lua">$ npx reacli -h
+
+  ____                 _ _
+ |  _ \ ___  __ _  ___| (_)
+ | |_) / _ \/ _` |/ __| | |
+ |  _ &lt;  __/ (_| | (__| | |
+ |_| \_\___|\__,_|\___|_|_|
+
+Usage: reacli [argument] [path(s)] [options]
+
+Argument:
+  component                 To create a new component
+  hook                      To create a React Hook
+
+Options:
+  -V, <span class="hljs-comment">--version             Output the version number</span>
+  -f, <span class="hljs-comment">--flow                Add flow to the template</span>
+  <span class="hljs-comment">--scss                    Use SCSS instead of classic css</span>
+  <span class="hljs-comment">--redux                   Add Redux to the template</span>
+  -i, <span class="hljs-comment">--ignore-config-file  Ignore the '.reacli' optional configuration file</span>
+  <span class="hljs-comment">--extension [value]       The file extension to use for the templates ('js' or 'jsx')</span>
+  -h, <span class="hljs-comment">--help                Output usage information</span></code></pre>
+{{ end }}
 {{ partial "footer.html" . }}
